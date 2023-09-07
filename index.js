@@ -4,7 +4,6 @@ const cors = require('cors');
 const app = express();
 const dns = require('dns');
 
-// Basic Configuration
 const port = process.env.PORT || 3000;
 
 app.use(cors());
